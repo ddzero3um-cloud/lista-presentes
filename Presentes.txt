@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista de Sugestões 🎁</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+    <header class="gradient-bg text-white py-12 px-6 text-center shadow-lg">
+        <div class="w-24 h-24 bg-white rounded-full mx-auto mb-4 flex items-center justify-center text-4xl shadow-inner">
+            🎁
+        </div>
+        <h1 class="text-3xl font-bold">Sugestões de Presentes</h1>
+        <p class="mt-2 opacity-90">Coisas que eu adoraria ganhar (ou que facilitam minha vida!)</p>
+    </header>
+
+    <main class="max-w-2xl mx-auto p-6 -mt-8">
+        <div class="space-y-6">
+
+            <div class="bg-white rounded-2xl p-5 shadow-md flex items-center gap-4 border-l-8 border-indigo-500 hover:scale-[1.02] transition-transform">
+                <div class="text-4xl">📚</div>
+                <div class="flex-1">
+                    <h3 class="font-bold text-gray-800 text-lg">Livro: O Hobbit</h3>
+                    <p class="text-sm text-gray-500">Edição de colecionador ou capa dura.</p>
+                </div>
+                <a href="https://www.amazon.com.br" target="_blank" class="bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-indigo-700">Ver Link</a>
+            </div>
+
+            <div class="bg-white rounded-2xl p-5 shadow-md flex items-center gap-4 border-l-8 border-pink-500 hover:scale-[1.02] transition-transform">
+                <div class="text-4xl">☕</div>
+                <div class="flex-1">
+                    <h3 class="font-bold text-gray-800 text-lg">Moedor de Café Elétrico</h3>
+                    <p class="text-sm text-gray-500">Para os rituais matinais!</p>
+                </div>
+                <a href="#" target="_blank" class="bg-pink-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-pink-700">Ver Link</a>
+            </div>
+
+            <div class="bg-white rounded-2xl p-5 shadow-md flex items-center gap-4 border-l-8 border-emerald-500 hover:scale-[1.02] transition-transform">
+                <div class="text-4xl">🎧</div>
+                <div class="flex-1">
+                    <h3 class="font-bold text-gray-800 text-lg">Fone de Ouvido Bluetooth</h3>
+                    <p class="text-sm text-gray-500">Qualquer um com cancelamento de ruído.</p>
+                </div>
+                <a href="#" target="_blank" class="bg-emerald-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-emerald-700">Ver Link</a>
+            </div>
+
+            <div class="text-center pt-8 text-gray-400 text-sm">
+                <p>Obrigado por lembrar de mim! ✨</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-10 text-gray-400 text-xs">
+        Criado com carinho pelo Gemini em 2026
+    </footer>
+
+</body>
+</html>
